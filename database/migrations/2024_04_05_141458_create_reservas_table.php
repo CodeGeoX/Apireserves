@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->date('data_inicial');
             $table->date('data_final');
-            $table->integer('user_id');
+            $table->string('gmail');
             $table->timestamps();
         });
     }

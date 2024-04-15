@@ -11,6 +11,6 @@ class Reserva extends Model
     protected $fillable = [
         'data_inicial',
         'data_final',
-        'user_id',
-    ];
+        'gmail',
+        ];
 }
